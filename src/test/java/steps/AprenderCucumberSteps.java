@@ -77,7 +77,7 @@ public class AprenderCucumberSteps {
     }
 
     @Dado("que o valor da passagem e R\\$(\\d+),(\\d+)$")
-    public void queOValorDaPassagemER$(Double double1) {
+    public void queOValorDaPassagemER$(int valor1, int valor2) {
 
     }
 

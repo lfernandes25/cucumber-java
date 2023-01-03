@@ -1,5 +1,6 @@
 #language: pt
 
+@Teste
 Funcionalidade: Aprendendo cucumber
 
   Cenario: Deve executar especificacao
@@ -27,7 +28,6 @@ Funcionalidade: Aprendendo cucumber
     Quando a entrega atrasar em 2 meses
     Entao a entrega sera efetuada em 05/06/2018
 
-    @C01
   Cenario: Deve criar steps genericos para estes passos
     Dado que o ticket e AF345
     E que o valor da passagem e R$230,45
@@ -36,7 +36,6 @@ Funcionalidade: Aprendendo cucumber
     Quando criar os steps
     Entao o teste vai funcionar
 
-      @C01
   Cenario: Deve reaproveitar os steps "Dado" do cenario anterior
     Dado que o ticket e AB167
     E que o ticket especial e AB167
@@ -44,7 +43,7 @@ Funcionalidade: Aprendendo cucumber
     E que o nome do passageiro e "Cicrano de Oliveira"
     E que o telefone do passageiro e 9888-8888
 
-        @C01
+  @ignore
   Cenario: Deve reaproveitar os steps "Dado" do cenario anterior
     Dado que o ticket e CD123
     E que o ticket e AG1234

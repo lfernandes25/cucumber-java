@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/",
         glue = "steps",
         plugin = "pretty",
+        tags = "@Filme and not @ignore" ,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        dryRun = true // valida se os cenarios foram construidos corretamente, sem executar os testes
-        ,tags = "@C01"
+        dryRun = false // valida se os cenarios foram construidos corretamente, sem executar os testes
 )
 public class Runner {
 }
