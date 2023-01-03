@@ -70,4 +70,33 @@ public class AprenderCucumberSteps {
         String dataFormatada = format.format(entrega);
         assertEquals(data,dataFormatada);
     }
+
+    @Dado("que o ticket( especial)? e (A.\\d{3})$")
+    public void queOTicketEAF345(String tipo , String arg1) {
+
+    }
+
+    @Dado("que o valor da passagem e R\\$(\\d+),(\\d+)$")
+    public void queOValorDaPassagemER$(Double double1) {
+
+    }
+
+    @Dado("que o nome do passageiro e \"(.{5,20})\"$")
+    public void queONomeDoPassageiroE(String string) {
+
+    }
+
+    @Dado("que o telefone do passageiro e (9\\d{3}-\\d{4})$")
+    public void queOTelefoneDoPassageiroE(String telefone) {
+
+    }
+
+    @Quando("criar os steps")
+    public void criarOsSteps() {
+
+    }
+    @Entao("o teste vai funcionar")
+    public void oTesteVaiFuncionar() {
+
+    }
 }
