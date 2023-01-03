@@ -30,25 +30,25 @@ Funcionalidade: Aprendendo cucumber
     @C01
   Cenario: Deve criar steps genericos para estes passos
     Dado que o ticket e AF345
-    Dado que o valor da passagem e R$230,45
-    Dado que o nome do passageiro e "Fulano da Silva"
-    Dado que o telefone do passageiro e 9999-9999
+    E que o valor da passagem e R$230,45
+    E que o nome do passageiro e "Fulano da Silva"
+    E que o telefone do passageiro e 9999-9999
     Quando criar os steps
     Entao o teste vai funcionar
 
       @C01
   Cenario: Deve reaproveitar os steps "Dado" do cenario anterior
     Dado que o ticket e AB167
-    Dado que o ticket especial e AB167
-    Dado que o valor da passagem e R$1120,23
-    Dado que o nome do passageiro e "Cicrano de Oliveira"
-    Dado que o telefone do passageiro e 9888-8888
+    E que o ticket especial e AB167
+    E que o valor da passagem e R$1120,23
+    E que o nome do passageiro e "Cicrano de Oliveira"
+    E que o telefone do passageiro e 9888-8888
 
         @C01
   Cenario: Deve reaproveitar os steps "Dado" do cenario anterior
     Dado que o ticket e CD123
-    Dado que o ticket e AG1234
-    Dado que o valor da passagem e R$1.1345,56
-    Dado que o nome do passageiro e "Beltrano Souza Matos de Alcantra Azevedo"
-    Dado que o telefone do passageiro e 1234-5678
-    Dado que o telefone do passageiro e 999-2223
+    E que o ticket e AG1234
+    E que o valor da passagem e R$1.1345,56
+    E que o nome do passageiro e "Beltrano Souza Matos de Alcantra Azevedo"
+    E que o telefone do passageiro e 1234-5678
+    E que o telefone do passageiro e 999-2223
