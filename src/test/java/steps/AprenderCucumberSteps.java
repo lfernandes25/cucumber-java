@@ -7,17 +7,16 @@ import io.cucumber.java.pt.Quando;
 public class AprenderCucumberSteps {
 
     @Dado("que criei o arquivo corretamente")
-    public void que_criei_o_arquivo_corretamente() {
+    public void queCrieiOArquivoCorretamente() {
         System.out.println("Passei pelo Dado");
     }
 
     @Quando("executa-lo")
-    public void executa_lo() {
+    public void executaLo() {
         System.out.println("Passei pelo Quando");
     }
 
     @Entao("a especificacao deve finalizar com sucesso")
-    public void a_especificacao_deve_finalizar_com_sucesso() {
-        System.out.println("Passei pelo Entao");
+    public void aEspecificacaoDeveFinalizarComSucesso() {System.out.println("Passei pelo Entao");
     }
 }
