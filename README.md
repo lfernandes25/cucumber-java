@@ -8,3 +8,9 @@
 2. Java 17.xx
 3. Plugin > Cucumber for java
  
+## Executar o testes
+
+Dado que ao executar os testes na classe runner apresentar erro, verificar configurações do idea
+
+Acessar o menu: File > Settings > Build, Execution, Deployment > Build tools > Gradle
+Na combo box Run Test using selecione "Choose per test"
