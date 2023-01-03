@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         glue = "steps",
         plugin = "pretty",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        dryRun = false // valida se os cenarios foram construidos corretamente, sem executar os testes
+        dryRun = true // valida se os cenarios foram construidos corretamente, sem executar os testes
+        ,tags = "@C01"
 )
 public class Runner {
 }

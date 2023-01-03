@@ -14,3 +14,7 @@ Dado que ao executar os testes na classe runner apresentar erro, verificar confi
 
 Acessar o menu: File > Settings > Build, Execution, Deployment > Build tools > Gradle
 Na combo box Run Test using selecione "Choose per test"
+
+## Composição dos testes
+
+Para ajudar no regex dos cenarios de teste, foi utilizado o site https://regex101.com/
