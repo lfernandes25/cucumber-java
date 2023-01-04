@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/",
         glue = "steps",
-        plugin = "pretty",
+        plugin = {"pretty", "html:target/report-html.html"},
         tags = "@Filme and not @ignore" ,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         dryRun = false // valida se os cenarios foram construidos corretamente, sem executar os testes
