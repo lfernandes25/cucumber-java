@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.cucumber:cucumber-plugin:7.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-plugin/7.8.1/22ec6a719de5fbc64fa10609fd7652d567929b35/cucumber-plugin-7.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-plugin/7.8.1/728c154324ce0aa4c1fc1bcba04bd1eb40edc429/cucumber-plugin-7.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
